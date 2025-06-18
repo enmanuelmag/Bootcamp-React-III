@@ -113,8 +113,15 @@ Visual Studio Code:
 
 ## Extra
 
-- Añadir un prop “working” para indicar cuando un usuario está actualmente trabajando. En caso de serlo mostrar una imagen de “Check” o un texto.
-- Investigar sobre renderizado condicional y dinámico.
+- Añadir un prop “working” para indicar cuando un usuario está actualmente trabajando. En caso de serlo mostrar una imagen de “Check” o un texto que indique está o no trabajando.
+- Investigar sobre renderizado condicional y dinámico. Para poder desde una lista de objecto de type `CandidateType`, rederizar el componente `Candidate`.
+
+Hint:
+```tsx
+const canidates: CandidateType = [
+{ name: 'Emanuel', age: 26, ...el resto de propiedades definidas en el type }
+]
+```
 
 [Documentación](https://react.dev/learn/conditional-rendering)
 
