@@ -118,7 +118,7 @@ Visual Studio Code:
 
 Hint:
 ```tsx
-const canidates: CandidateType = [
+const candidates: CandidateType = [
 { name: 'Emanuel', age: 26, ...el resto de propiedades definidas en el type }
 ]
 ```
