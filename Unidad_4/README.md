@@ -18,7 +18,7 @@ Componente Funcional:
 
 ## Principales Hooks de ReactJS
 
-A continuación, se presentan los principales Hooks de ReactJS, para mas info puedes visitar la [esta documentación de la comunidad](https://react-hooks-cheatsheet.com):
+A continuación, se presentan los principales Hooks de ReactJS, para mas info puedes visitar la [esta documentación de la comunidad](https://www.codecademy.com/learn/react-101/modules/react-hooks-u/cheatsheet):
 
 - useState, administración de estados, pueden ser primitivos, JSON, clases, etc.
 - useEffect, admintración del life cycle del componente, lo veremos más adelante del curso. Dato, este siempre se ejecuta después de que el componente de haya renderizado por algún cambio.
